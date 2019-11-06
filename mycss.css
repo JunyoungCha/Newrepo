@@ -1,0 +1,37 @@
+html{
+        height: 100%;
+    }
+    body{
+        background-color: royalblue;
+                    }
+div { 
+    border:purple solid 3px;
+    display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+        overflow: scroll; 
+        /* scroll 모양 바꾸고싶으면 구글에서 이쁜 스크롤찾아서 적용 */
+        float: left; 
+        /* 둥둥 떠다니는 형식으로 좌 정렬 주는것 */
+    }
+div{
+    font-size: 30px;
+    color: violet;
+    text-align: center;
+    margin: 5%; /*박스밖으로 거리*/  
+    padding: 30px; /*보더 라인과 안에 텍스트 박스와의 거리 */
+
+}
+
+.make_class{
+    color: black;
+    border: 4px red solid;
+}
+#you{
+    color: rgb(red, green, blue)
+    border: 5px black solid;
+}
+.back_class{
+    background: white;
+}
